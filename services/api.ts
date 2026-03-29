@@ -16,10 +16,10 @@ fetch(url, options)
 
 export const TMBD_CONFIG = {
   BASE_URL: "https://api.themoviedb.org/3",
-  API_KEY: process.env.EXPO_PUBLIC_MOVIE_API,
+  API_KEY: process.env.EXPO_PUBLIC_MOVIE_API_KEY,
   headers: {
     accept: "application/json",
-    authorization: `Bearer ${process.env.EXPO_PUBLIC_MOVIE_API}`,
+    authorization: `Bearer ${process.env.EXPO_PUBLIC_MOVIE_API_KEY}`,
   },
 };
 
